@@ -1,0 +1,52 @@
+.form-regis,.home-page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome {
+    width: 1000px;
+    height: 500px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(219, 211, 211, 0.725);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thank {
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 600px;
+    height: 100px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(192, 88, 126, 0.35);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+#Register{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-size: 25px;
+}
+#reg{
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    height: auto;
+}
